@@ -5,6 +5,28 @@ $secondary: #1ac888;
 $error : #d32752;
 $info : #f6c31c;
 
+
+/// color palette
+$colors : (
+    'primary':$primary,
+    'secondary':$secondary,
+    'error': $error,
+    'info': $info,
+    'blue' : #1919e6,
+    'red' : #e61919,
+    'yellow': #e6e619,
+    'white': white
+);
+
+
+// .test-btn {
+//     background-color: map-get($colors, 'secondary' );
+// }
+
+// @debug map-get($colors , 'blue');
+// @debug map-has-key($colors , 'blue');
+//  @debug map-remove($colors, 'blue' );
+// @debug map-merge($colors ,  ("pink": #ffc0cb));
 /// spacing
 
 $base-padding: .75rem;
